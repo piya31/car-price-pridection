@@ -4,7 +4,7 @@ import pickle as pk
 import streamlit as st
 
 with open('Reg.pkl', 'rb') as file:
-    model = pk.load(file)
+  model = pk.load(file)
 
 st.header("CAR PRICE PREDICTION SYSTEM")
 
